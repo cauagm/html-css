@@ -40,6 +40,11 @@ section#section-container {
 .texto-face h1 {
     color: var(--cor-logo);
     padding-bottom: 15px;
+    font-size: 3em;
+}
+
+.texto-face p {
+    font-size: 1.3em;
 }
 
 .form {
@@ -47,7 +52,7 @@ section#section-container {
     flex-direction: column;
     grid-column: 2 / 3;
     background-color: rgba(211, 211, 211, 0.177);
-    border-radius: 5px;
+    border-radius: 8px;
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.245);
     width: 100%;
     max-width: 270px;
@@ -61,6 +66,7 @@ section#section-container {
 
 .form form > p {
     padding-bottom: 5px;
+    
 }
 
 .form form p input {
@@ -69,6 +75,8 @@ section#section-container {
     width: 250px;
     background-color: rgba(211, 211, 211, 0.177);
     border: 1px solid #000000;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.245);
+    font-size: 1em;
 
 }
 
@@ -77,6 +85,8 @@ section#section-container {
     color: var(--cor-fundo);
     border-color: var(--cor-texto);
     border: 1px solid #000000;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.245);
+    font-size: 1em;
 }
 
 .esqueceu {
@@ -102,6 +112,8 @@ hr {
     height: 40px;
     width: 180px;
     border-radius: 8px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.245);
+    font-size: 1em;
 
 }
 
