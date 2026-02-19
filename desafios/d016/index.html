@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrar no facebook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section id="section-container">
+            <div class="texto-face">
+                <h1>Facebook</h1>
+                <p>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
+            </div>
+            <div class="form">
+                <form action="login.php" method="post">
+                    <p>
+                        <label for="email"></label>
+                        <input type="email" name="email" id="email" placeholder="Digite seu Email" required>
+                    </p>
+
+                    <p>
+                        <label for="senha"></label>
+                        <input type="password" name="senha" id="isenha" placeholder="Digite sua senha" required minlength="8">
+                    </p>
+                    <p>
+                        <input type="submit" value="Entrar">
+                    </p>
+                </form>
+                <a href="#" class="esqueceu">Esqueceu a senha?</a>
+                <hr>
+                <p class="conta">
+                    <input type="submit" value="Criar nova conta">
+                </p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
